@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body li {
+  list-style: none;
+}
+
+#quote-box {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+}
+#quote-box > div {
+  padding: 10px 20px;
+}
+#quote-box #text {
+  text-align: center;
+  font-size: 25px;
+}
+#quote-box .Btn {
+  display: flex;
+  justify-content: space-around;
+}
+#quote-box #author {
+  width: 100%;
+  text-align: right;
+}
+#quote-box #tweet-quote {
+  display: flex;
+}
+#quote-box #tweet-quote li a {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=App.css.map */

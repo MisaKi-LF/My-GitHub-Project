@@ -1,0 +1,41 @@
+@mixin display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  li {
+    list-style: none;
+  }
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  @include display()
+}
+#quote-box {
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+  >div {
+    padding: 10px 20px;
+  }
+  #text {
+    text-align: center;
+    font-size: 25px;
+  }
+  .Btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  #author {
+    width: 100%;
+    text-align: right;
+  }
+  #tweet-quote {
+    display: flex;
+  }
+  #tweet-quote li a {
+    padding: 10px;
+  }
+}
