@@ -1,0 +1,36 @@
+$color1 : pink;
+body {
+
+  #drum-machine {
+    width: 660px;
+    display: flex;
+    text-align: center;
+    outline: 5px solid orange;
+  }
+  .pad-bank {
+    width: 332px;
+    height: 272px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pad-bank .drum-pad {
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor:pointer;
+  }
+  .controls-container {
+    width: 240px;
+    height: 272px;
+    display: inline-block;
+    margin: 40px 20px 0 10px;
+    vertical-align: top;
+  }
+  .active {
+    background-color: pink;
+  }
+}
