@@ -1,6 +1,6 @@
 export const initialState = {
     displaySoundName: 'React Drum Machine',
-    githubProfileUrl: 'https://github.com/Th3Wall'
+    githubProfileUrl: 'https://github.com/MisaKi-LF'
 }
 export const actionTypes = {
     SET_DISPLAY: "SET_DISPLAY"
